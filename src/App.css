@@ -1,11 +1,12 @@
 html, body, #root {
   margin: 0;
   background-color: #FF9BD2;
+  height: 100vh;
 }
 
 .App {
  
-  height: 100vh;
+
 }
 
 .navbar {
@@ -128,6 +129,7 @@ button {
   border: solid black;
   box-shadow: -10px 10px black;
   background: #F8F4EC;
+  margin-bottom: 20px;
 }
 
 .anime-details {
@@ -151,4 +153,9 @@ button {
 
 .anime-link:hover {
   text-decoration: underline;
+}
+
+form {
+ display: grid;
+ grid-template-columns: 30%;
 }
